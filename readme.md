@@ -66,4 +66,23 @@ You can run multiple instances of the client to simulate multiple users.
 
 - By default, the client connects to `localhost`. To connect to a different server, modify the `serverIP` variable in the first pop up window
 - The default port is 12345. This can be modified in both server code and client first pop up window
+  - Change Port in Server Code:
+    - Open `ChatServer.java`
+    - Modify the `PORT` variable
+      ```java
+      public class ChatServer {
+        private static final int PORT = 12345;
+        private static HashSet<PrintWriter> clientWriters = new HashSet<>();
+        ...
+      }
+    ```
+    - Recompile the server
+  - Change Port in Client Code:
+    - Open `ChatClient.java`  
+    - Modify the `PORT` variable or you can change the default value in the first pop up window
+      ```java
+      JTextField ipField = new JTextField("localhost", 20);
+    JTextField portField = new JTextField("12345", 20);
+    ```
+    - Recompile the client
   
