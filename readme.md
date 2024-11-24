@@ -1,4 +1,4 @@
-# Simple Java Chat Application
+# Java Chat Application
 
 This is a simple chat application implemented using Java Socket Programming. The application consists of a server that can handle multiple clients and a GUI client that allows users to send and receive messages.
 
@@ -66,3 +66,4 @@ You can run multiple instances of the client to simulate multiple users.
 
 - By default, the client connects to `localhost`. To connect to a different server, modify the `serverIP` variable in the first pop up window
 - The default port is 12345. This can be modified in both server code and client first pop up window
+  
