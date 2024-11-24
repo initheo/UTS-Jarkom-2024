@@ -48,11 +48,13 @@ You can run multiple instances of the client to simulate multiple users.
 
 1. Start the server first
 2. Launch one or more client instances
-3. Enter a server IP address, port number and a username in the client window and click "Connect"
-4. If the connection is successful, the client window will display a list of connected users
-6. Type messages in the text field at the bottom of the client window
-7. Press Enter or click "Send" to send messages
-8. Messages will be broadcast to all connected clients
+3. Enter a server IP address, port number and a username in the client window and click "OK"
+   <img width="501" alt="Screenshot 2024-11-24 at 16 47 12" src="https://github.com/user-attachments/assets/0564fe8f-fbd7-41cb-8090-3ebe96ab4def">
+5. If the connection is successful, the client window will display a list of connected users
+   <img width="501" alt="Screenshot 2024-11-24 at 16 50 09" src="https://github.com/user-attachments/assets/788ad791-899e-42a7-bd56-83c4fe2561d4">
+7. Type messages in the text field at the bottom of the client window
+8. Press Enter or click "Send" to send messages
+9. Messages will be broadcast to all connected clients
 
 ## Technical Details
 
